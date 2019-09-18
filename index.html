@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Radiance Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Tangerine:700" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header d-flex justify-content-center align-items-center">
+        <div class="title text-center">
+            <h1 id="welcome"style="font-family: 'Tangerine', cursive;font-size: 130px;">Radiance</h1>
+            <h2 style="font-family: 'Cinzel', serif; font-size: 30px;letter-spacing:20px ;padding: 5px;color: white;">WELCOME TO RADIANCE'S SPACE</h2>
+            <div class="mt-4">
+                <a href="#nav" class="btn btn-outline-light">Get started!</a>
+               
+            </div>
+        </div>
+    </header>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:rgb(0,13,26,0.9)">
+        <a  class="navbar-brand" href="#" style="color:white;font-family: 'Cinzel', serif; ">Radiance</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#welcome">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <!--  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="py-5 ">
+        <!--將各個分頁取間距(Py-5=padding垂直距離5)-->
+        <div class="container">
+
+            <h2 id="about" class="text-center">About</h2>
+            <p class="text-center" style="letter-spacing:5px;">savoring the moment !</p>
+            <!--做grid，md是中斷點(12份)-->
+            <div class="row" style="padding-top: 20px;">
+                <div class="col-md-5">
+                    <img class="img-fluid " style="height:500px" src="img/pt.jpg" alt="pt">
+                </div>
+                <div class="col-md-7">
+                    <div>
+                        <h3 style="padding-top: 30px;"><strong>讓願望停止幻想，讓自己成為方向</strong></h3>
+                        <p style="letter-spacing:5px;line-height:45px;padding-left: 20px;padding-top: 20px;">
+                            嗨&nbsp;&nbsp;我是馬培馨 (Radiance)<br />
+                            畢業於中正大學資管系<br />
+                            目前就讀台科資管所<br />
+                            寫程式、看文章是我的日常<br />
+                            閒暇時刻喜歡在鄉村與城市間遊走<br />
+                            日常裡喜歡觀察金熊鼠吃飯、唱歌、逛街、打球運動<br />
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-attachment bg-cover"
+        style="background-size:cover;background-image:url(https://images.unsplash.com/photo-1544717846-1b449cd78e73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)">
+        <div class="container " style="">
+            <h2 id="portfolio" class="text-center">Portfolio</h2>
+            <div class="row py-5 d-flex justify-content-center">
+                <div class="col-md-4 ">
+                    <i class="">
+                        <div style="">
+                          <a href="專題ppt.pptx" download> 
+                            
+                        <div class="hover01">
+                            <figure>
+                            <img src="專題海報.jpg" alt="專題海報" width="350px" >
+                           </figure>
+                        </div>
+                          
+                          </a>
+                        </div>
+                    </i>
+                </div>
+                <div class="col-md-4 ">
+                    <i class="">
+                       <div style="">
+                          <a href="軟工.pptx" download> 
+                            <div class="hover01">
+                            <figure>
+                              <img src="軟工.jpg" alt="軟工海報" width="350px" height="240px">
+                           </figure>
+                        </div>
+
+                          
+                          </a>
+                        </div>
+                    </i>
+                </div>
+         
+            <div class="row py-5">
+                <div class="col-md-4 ">
+                    <i class="">
+                        <div style="">
+                            <a href="https://www.facebook.com/T4%E5%80%8B%E6%A1%88%E7%AB%B6%E8%B3%BD-156123975169896/">
+                            <div class="hover01">
+                            <figure>  
+                            <img src="T4.jpg" alt="T4個案競賽.jpg" width="350px" height="200px">
+                            </figure> 
+                           
+                           
+                           </div>
+                            </a>
+                        
+                        </div>
+                    </i>
+                </div>
+                <div class="col-md-4 ">
+                    <i class="">
+                         <a href="https://www.facebook.com/%E7%A4%BE%E6%9C%83%E8%83%8C%E5%85%89%E8%99%95-1477795032264934/">
+                            <div class="hover01">
+                            
+                            
+                            <figure>  
+                            <img src="社會背光處.jpg" alt="社會背光處.jpg" width="400px" height="250px">
+                            </figure> 
+                           
+                           
+                           </div>
+                            </a>
+                    </i>
+                </div>
+                <div class="col-md-4 ">
+                    <i class="">
+                         <a href="https://www.facebook.com/CCUtransfer/">
+                            <div class="hover01">
+                            
+                            
+                            <figure>  
+                            <img src="轉聯會.jpg" alt="轉聯會.jpg" width="360px" height="250px">
+                            </figure> 
+                           
+                           
+                           </div>
+                            </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5  container ">
+        <h2 id="blog" class="text-center">Blog (施工中)</h2>
+        <div class="py-5" style="padding:30px;border:rgb(182, 178, 178,  0.651) 0.7px solid;">
+            <div class="col css-scrollbar" style="height:300px;overflow:scroll;overflow-x:hidden;
+            overflow-y:auto;">
+                <h3>夏夜</h3>
+                <p style="padding:5px;">
+                    蝴蝶和蜜蜂們帶著花朵的蜜糖回來了，<br>
+                    羊隊和牛群告別了田野回家了，<br>
+                    火紅的太陽也滾著火輪子回家了，<br>
+                    當街燈亮起來向村莊道過晚安，<br>
+                    夏天的夜就輕輕地來了。<br>
+                    來了！來了！<br>
+                    從山坡上輕輕地爬下來了。<br>
+                    來了！來了！<br>
+                    從椰子樹梢輕輕地爬下來了。<br>
+                    撒了滿天的珍珠和一枚又大又亮的銀幣。<br>
+                    美麗的夏夜呀！<br>
+                    涼爽的夏夜呀！<br>
+                    小雞和小鴨們關在欄裡睡了。<br>
+                    聽完了老祖母的故事，<br>
+                    小弟弟和小妹妹也闔上眼睛走向夢鄉了。<br>
+                    （小妹妹夢見她變成蝴蝶在大花園裡忽東忽西地飛，小弟弟夢見<br>
+                    他變做一條魚在藍色的大海裡游水。）<br>
+                    睡了，都睡了，<br>
+                    朦朧地，山巒靜靜地睡了！<br>
+                    朦朧地，田野靜靜地睡了！<br>
+                    只有窗外瓜架上的南瓜還醒著，<br>
+                    伸長了藤蔓輕輕地往屋頂上爬。<br>
+                    只有綠色的小河還醒著，<br>
+                    低聲地歌唱著溜過彎彎的小橋。<br>
+                    只有夜風還醒著，<br>
+                    從竹林裡跑出來，<br>
+                    跟著提燈的螢火蟲，<br>
+                    在美麗的夏夜裡愉快地旅行。
+
+                </p>
+            </div>
+        </div>
+        <div class="py-5" style="padding:30px;border:rgba(182, 178, 178, 0.651) 0.7px solid;">
+            <div class="col css-scrollbar" style="height:300px;overflow:scroll;overflow-x:hidden;
+                overflow-y:auto;">
+                <h3>夏夜</h3>
+                <p style="padding:5px;">
+                    蝴蝶和蜜蜂們帶著花朵的蜜糖回來了，<br>
+                    羊隊和牛群告別了田野回家了，<br>
+                    火紅的太陽也滾著火輪子回家了，<br>
+                    當街燈亮起來向村莊道過晚安，<br>
+                    夏天的夜就輕輕地來了。<br>
+                    來了！來了！<br>
+                    從山坡上輕輕地爬下來了。<br>
+                    來了！來了！<br>
+                    從椰子樹梢輕輕地爬下來了。<br>
+                    撒了滿天的珍珠和一枚又大又亮的銀幣。<br>
+                    美麗的夏夜呀！<br>
+                    涼爽的夏夜呀！<br>
+                    小雞和小鴨們關在欄裡睡了。<br>
+                    聽完了老祖母的故事，<br>
+                    小弟弟和小妹妹也闔上眼睛走向夢鄉了。<br>
+                    （小妹妹夢見她變成蝴蝶在大花園裡忽東忽西地飛，小弟弟夢見<br>
+                    他變做一條魚在藍色的大海裡游水。）<br>
+                    睡了，都睡了，<br>
+                    朦朧地，山巒靜靜地睡了！<br>
+                    朦朧地，田野靜靜地睡了！<br>
+                    只有窗外瓜架上的南瓜還醒著，<br>
+                    伸長了藤蔓輕輕地往屋頂上爬。<br>
+                    只有綠色的小河還醒著，<br>
+                    低聲地歌唱著溜過彎彎的小橋。<br>
+                    只有夜風還醒著，<br>
+                    從竹林裡跑出來，<br>
+                    跟著提燈的螢火蟲，<br>
+                    在美麗的夏夜裡愉快地旅行。
+
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <section class="py-5 text-white bg-cover "
+        style="background-image: url(https://images.unsplash.com/photo-1541166662916-67e8fe74fda9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);">
+        <h2 id="contact" class="text-center">Contact with Me</h2>
+        <div class="text-center "style="padding-top:50px;" >
+            <a href="https://github.com/radiancepeipei"><img src="img/github-logo.png" alt=""></a>
+
+            <a href="https://www.instagram.com/radiance1107/"><img src="img/ig.png" alt=""></a>
+
+            <a href="https://www.facebook.com/profile.php?id=100013204026872"><img src="img/fb.png" alt=""></a>
+            <a href="mailto:mickey851107@gmail.com"><img src="img/gmail.png"/></a>
+        
+        </div>
+
+
+
+
+        <footer class="	navbar-fixed-bottom;">
+            <div class="container ">
+                <p class="text-center" style="color:rgba(206, 202, 202, 0.938) ;font-size:20px;padding-top: 80px;">Copyright © 2019 Amanda All rights
+                    reserved</p>
+            </div>
+        </footer>
+
+    </section>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
